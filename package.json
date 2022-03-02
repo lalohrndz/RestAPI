@@ -1,0 +1,30 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalohrndz/RestAPI.git"
+  },
+  "keywords": [],
+  "author": "@EddPstr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalohrndz/RestAPI/issues"
+  },
+  "homepage": "https://github.com/lalohrndz/RestAPI#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "underscore": "^1.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
